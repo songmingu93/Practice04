@@ -15,7 +15,6 @@ public class Ex03 {
 			System.out.println(intA[i]);
 		}
 
-		
 	}
-	
-}	
+
+}

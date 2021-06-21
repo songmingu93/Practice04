@@ -4,15 +4,24 @@ public class Ex02 {
 
 	public static void main(String[] args) {
 		
-		double[] intArray = new double[3];
+		double[] dbArray = new double[3];
 		
-		intArray[0] = 6.7;
-		intArray[1] = 3.3;
-		intArray[2] = 1.2;
+		dbArray[0] = 6.7;
+		dbArray[1] = 3.3;
+		dbArray[2] = 1.2;
 		
+		/*
+		//선언 및 생성과 동시에 초기화
+		double[] dbArray = new double[] {6.7, 3.3, 1.2} ; 
+		*/
 		
-		for(int i=0; i < intArray.length; i++) {
-			System.out.println(intArray[i]);
+		/*
+		//선언 및 생성과 동시에 초기화 축약
+		double[] dbArray = {6.7, 3.3, 1.2} ; 
+		*/
+		
+		for(int i=0; i<dbArray.length; i++) {
+			System.out.println(dbArray[i]);
 		}
 	}
 
